@@ -40,7 +40,7 @@ public class database extends SQLiteOpenHelper {
 
         user.put("login","admin");
         user.put("password","admin");
-        user.put("username","mountainfox");
+        user.put("username","Administrateur");
 
         db.insert("Users",null,user);
 
