@@ -192,6 +192,12 @@ public class Menu extends AppCompatActivity
             fragmentTransaction.commit();
 
         } else if (id == R.id.nav_manage) {
+            fab.setVisibility(INVISIBLE);
+            tb.setTitle(getBaseContext().getResources().getString(R.string.Services));
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.content_frame,new Fragment_Services());
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
 
         } else if (id == R.id.nav_share) {
 

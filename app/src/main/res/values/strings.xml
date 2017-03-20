@@ -29,4 +29,6 @@
     <string name="Tracteur">Tracteur</string>
     <string name="Moto">Moto</string>
     <string name="Camion">Camion</string>
+    <string name="clic" translatable="false">clic</string>
+    <string name="Services" translatable="false">Services</string>
 </resources>

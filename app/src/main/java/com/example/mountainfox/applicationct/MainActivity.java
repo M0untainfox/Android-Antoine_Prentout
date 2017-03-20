@@ -35,9 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra(EXTRA_VAL, USER);
                 startActivity(intent);
                 }
-                else{
 
-                }
             }
         });
     }

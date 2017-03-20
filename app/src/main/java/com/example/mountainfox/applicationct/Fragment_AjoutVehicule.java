@@ -1,6 +1,7 @@
 package com.example.mountainfox.applicationct;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.Editable;
@@ -114,6 +115,7 @@ public class Fragment_AjoutVehicule extends Fragment {
                 }
 
                 else{
+
                     Menu.ajouterListV(Mark.getText().toString(),Mod.getText().toString(),Imat.getText().toString(),Integer.parseInt(Ann.getText().toString()),Integer.parseInt(KM.getText().toString()),spinnerType.getSelectedItemPosition());
                     Mark.setText("");
                     Mod.setText("");

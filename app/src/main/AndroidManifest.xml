@@ -15,11 +15,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
+
         <activity
             android:name=".Menu"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <service
+            android:name=".classeServ"
+            android:label="My Service" >
+        </service>
     </application>
 
 </manifest>
